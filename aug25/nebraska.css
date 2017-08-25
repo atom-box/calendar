@@ -1,0 +1,44 @@
+/*  note the nth child, the button */
+
+* { font-family: courier;
+ }
+
+h1, h2, h3, h4, h5, h6, p {
+	text-align: center;
+}
+
+div:nth-child(even) {
+	background-color: gray ;
+	color: white ;
+}
+
+div:nth-child(3n +1)   {
+	clear: left;
+}
+
+div div { height: 200px;
+			width: 200px;
+			float: left;
+			margin: 2px;
+			vertical-align: center;
+			align-self: center;
+
+}
+
+/*/ centering per css-tricks */
+
+
+div.horizontal {
+    display: flex;
+    justify-content: center;
+}
+
+div.vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#luigi {
+	background-color: pink;
+}
