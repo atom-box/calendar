@@ -1,0 +1,48 @@
+/*  note the nth child, the button */
+
+div:nth-child(odd) {
+	background-color: gray ;
+	color: white ;
+}
+
+
+div:nth-child(even) {
+	color: black ;
+}
+
+div:nth-child(3n +1)   {
+	clear: left;
+}
+
+div:nth-child(7){
+	padding: 5px 0px 0px 5px;
+}
+
+div div { height: 200px;
+			width: 200px;
+			float: left;
+			margin: 2px;
+
+}
+
+/* doesn't work */
+button {
+	justify-content: right;
+}
+
+
+
+#one {
+	background-color: purple;
+	color: white;
+	font-family: courier;
+}
+
+#two {
+	background-color: green;
+}
+#three {
+	background-color: blue;
+	color: pink;
+}
+h3 { padding: 0px }
