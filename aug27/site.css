@@ -1,0 +1,82 @@
+/* reset */
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html , body{
+	line-height: 1;
+	background-color: #334873;
+	background-image: url(../_images/bg-page2.png);
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+footer {
+	justify-content: right;
+	text-align: right;
+}
+body {
+	width: 850px;
+}
+
+div {
+	float: left;
+}
+
+div.horizontal {
+    display: flex;
+    width: 212px;
+    height: 212px;
+    justify-content: center;
+    background-color: blue;
+}
+div.horizontal:nth-child(5){
+	clear: left;
+}
+
+div.vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+}
+
+div.horizontal:nth-child(odd){
+	background-color: red;
+}
+
+
+p {
+	font-size: 48px;
+	color: white;
+	font-family: 'ColaborateLightRegular', Arial, sans-serif;
+	line-height: 125%;
+	margin-bottom: 10px;
+	text-decoration: blink;
+}
+h5 {
+	color: yellow;
+	font-family: 'ColaborateLightRegular', Arial, sans-serif;
+
+}
