@@ -1,6 +1,7 @@
 /* By Evan Genest August 28, 2017
 *  Features: four listeners:
 			change, keydown, keypress keyup  click
+		Notes: Why does 
 */
 
 var myForm = document.form1;

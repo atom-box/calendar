@@ -16,7 +16,11 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	vertical-align: baseline;
 }
 form {
-	background-color: #862;
+	background-color: white;
+}
+button {
+	justify-content: right;
+	float: right;
 }
 html , body{
 	line-height: 1;
