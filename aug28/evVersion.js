@@ -19,8 +19,15 @@ function poking() // clicking
 	theTextArea.value = message;
 }
 
-var message = "The cat responds both to clicking and touching.";
+function wipeOut(){
+	theTextArea.value = "";
+}
+
+var message = "The cat responds both to clicking and touching.\n";
 theTextArea.value = message;
 theCat.addEventListener("mouseover", petting );
 theCat.addEventListener("click", poking);
+theButton.addEventListener("click", wipeOut );
+
+
 

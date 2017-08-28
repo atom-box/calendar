@@ -1,13 +1,6 @@
 /* reset */
 html, body, div, span, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+h1, h2, h3, h4, h5, h6, p {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -15,8 +8,17 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font: inherit;
 	vertical-align: baseline;
 }
+
+.thumb,  div {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
 form {
-	background-color: white;
+	background-color: #320;
+	position: absolute;
+	left: 200px;
 }
 button {
 	justify-content: right;
@@ -24,19 +26,14 @@ button {
 }
 html , body{
 	line-height: 1;
-	background-color: #334873;
-	background-image: url(../_images/bg-page2.png);
-}
-footer {
-	justify-content: right;
-	text-align: right;
-}
-body {
-	width: 850px;
+	background-color: #023;
 }
 
-div {
-	float: left;
+footer {
+	clear: right;
+	float: right;
+	justify-content: right;
+	text-align: right;
 }
 
 div.horizontal {
@@ -45,9 +42,6 @@ div.horizontal {
     height: 212px;
     justify-content: center;
     background-color: blue;
-}
-div.horizontal:nth-child(5){
-	clear: left;
 }
 
 div.vertical {
