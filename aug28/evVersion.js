@@ -29,5 +29,9 @@ theCat.addEventListener("mouseover", petting );
 theCat.addEventListener("click", poking);
 theButton.addEventListener("click", wipeOut );
 
+/*todo:
+Make css change the size of the image when petted.
+Make an entire page that tries changing h1, form, button, etc, when clicked.
 
+*/
 
