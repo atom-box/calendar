@@ -5,9 +5,7 @@ By: Evan Genest August 29, 2017 twitter@mistergenest
 var sleater = document.getElementById("blue");
 var kinney = document.getElementById("black");
 var marquee = document.querySelector("textArea");
-kinney.value = " row the boat ashore ";
-console.log("Bro.");
-console.log( kinney.value );
+marquee.value = "Instructions: move the mouse over the words above to see the time.";
 
 function heardIt (e){
 	var time = new Date();
