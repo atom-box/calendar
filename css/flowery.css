@@ -1,0 +1,91 @@
+/* reset */
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: #cc0;
+}
+
+
+ h1, h2 {
+font-family: 'Indie Flower', cursive, monospace;
+	
+}
+img {
+	width: 50%;
+}
+
+
+form {
+	background-color: #320;
+	position: absolute;
+	left: 200px;
+}
+button {
+	justify-content: right;
+	float: right;
+}
+html , body{
+	line-height: 1;
+	background-color: #023;
+}
+
+footer {
+	clear: right;
+	float: right;
+	justify-content: right;
+	text-align: right;
+}
+
+div.horizontal {
+    display: flex;
+    width: 212px;
+    height: 212px;
+    justify-content: center;
+    background-color: blue;
+}
+
+div.vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: transparent;
+}
+
+div.horizontal:nth-child(odd){
+	background-color: red;
+}
+
+
+p {
+
+	color: white;
+	font-family: 'ColaborateLightRegular', Arial, sans-serif;
+	line-height: 125%;
+	margin-bottom: 10px;
+	text-decoration: blink;
+}
+h4, h5, p, a:link a:visited {
+	color: red !important ;
+	font-family: 'ColaborateLightRegular', Arial, sans-serif;
+		text-shadow: #71d 2px 2px 5px;
+}
+a:link {
+	color: pink;
+}
+h4 {
+	color: green;
+
+}
+
+.thumb,  div {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+#king {
+	margin-left: auto;
+	margin-right: auton;
+}

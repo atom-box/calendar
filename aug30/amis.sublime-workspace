@@ -1,0 +1,533 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"key",
+				"keydown"
+			],
+			[
+				"d",
+				"d"
+			],
+			[
+				"mou",
+				"mouseover"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"all",
+				"align-self"
+			],
+			[
+				"onmou",
+				"onmouseout\tAttr"
+			],
+			[
+				"onmouse",
+				"onmouseover\tAttr"
+			],
+			[
+				"my",
+				"myButton"
+			],
+			[
+				"i",
+				"iframe\tTag"
+			],
+			[
+				"n",
+				"nth-child"
+			],
+			[
+				"ma",
+				"maxlength\tAttr"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"t",
+				"t"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"categ",
+				"categoryShort"
+			],
+			[
+				"cate",
+				"categoryShort"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"chosen",
+				"chosenRandomCategory"
+			],
+			[
+				"choose",
+				"chooseRandomCategory"
+			],
+			[
+				"shor",
+				"short_name"
+			],
+			[
+				"menu",
+				"menuItems"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"front",
+				"front"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!doctype html>\n<!-- xxxxxxxxxxx -->\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n \n <!--\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>                 </title>\n    <link rel=\"stylesheet\" href=\"css/bootstrap.min.css\">\n-->\n  <script src=\"../js/jquery-2.1.4.min.js\"></script>\n  <script src=\"../js/bootstrap.min.js\"></script>\n\n    <link href=\"https://fonts.googleapis.com/css?family=Indie+Flower\" rel=\"stylesheet\"> \n    <link rel=\"stylesheet\" href=\"../css/flowery.css\">\n  <script src=\"../js/jquery-2.1.4.min.js\"></script>\n  <script src=\"../js/bootstrap.min.js\"></script>\n  <title>Friends | 30 Minute Challenge </title>\n  </head>\n<body>\n  \n<header>\n<div class=\"container-fluid\" id=\"king\">\n  <h1 class=\"text-center\" \n    style=\"\n      font-family: 'Indie Flower', cursive, monospace;\n\n    \"     \n   >Parler à Mes Amis</h1>\n</header>\n\n<div class=\"know\">\n  <h4>Pic of a person?  Cartoon?</h4>\n  <img src=\"friends2_sepia.png\" class=\"img-responsive\" />\n  <form>\n    \n  </form>\n</div>\n<div class=\"talked\">\n    <h4>Pic of a person?  Cartoon?</h4>\n    <img src=\"friends1.png\" class=\"img-responsive\" />\n\n\n</div>\n\n\n</div>  \n\n\n  <script src=\"script.js\"></script>\n  \n  <!-- jQuery (Bootstrap JS plugins depend on it) \n  <script src=\"../js/ajax-utils.js\"></script>\n  -->\n</body>\n</html>\n",
+			"file": "amis.html",
+			"file_size": 1616,
+			"file_write_time": 131486660620000000,
+			"settings":
+			{
+				"buffer_size": 1317,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/* reset */\nhtml, body, div, span, iframe,\nh1, h2, h3, h4, h5, h6, p {\n\tmargin: 0;\n\tpadding: 0;\n\tborder: 0;\n\tcolor: #cc0;\n}\n\n\n h1, h2 {\nfont-family: 'Indie Flower', cursive, monospace;\n\t\n}\nimg {\n\twidth: 50%;\n}\n\n\nform {\n\tbackground-color: #320;\n\tposition: absolute;\n\tleft: 200px;\n}\nbutton {\n\tjustify-content: right;\n\tfloat: right;\n}\nhtml , body{\n\tline-height: 1;\n\tbackground-color: #023;\n}\n\nfooter {\n\tclear: right;\n\tfloat: right;\n\tjustify-content: right;\n\ttext-align: right;\n}\n\ndiv.horizontal {\n    display: flex;\n    width: 212px;\n    height: 212px;\n    justify-content: center;\n    background-color: blue;\n}\n\ndiv.vertical {\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    background-color: transparent;\n}\n\ndiv.horizontal:nth-child(odd){\n\tbackground-color: red;\n}\n\n\np {\n\n\tcolor: white;\n\tfont-family: 'ColaborateLightRegular', Arial, sans-serif;\n\tline-height: 125%;\n\tmargin-bottom: 10px;\n\ttext-decoration: blink;\n}\nh4, h5, p, a:link a:visited {\n\n\tfont-family: 'ColaborateLightRegular', Arial, sans-serif;\n\t\ttext-shadow: #71d 2px 2px 5px;\n}\na:link {\n\tcolor: pink;\n}\nh4 {\n\tcolor: green;\n\n}\n\n.thumb,  div {\n\tmargin-right: auto;\n\tmargin-left: auto;\n\tdisplay: block;\n}\n\n#king {\n\tmargin-left: auto;\n\tmargin-right: auton;\n}",
+			"file": "/Users/evan/Dropbox/code/calendar/css/flowery.css",
+			"file_size": 1271,
+			"file_write_time": 131486664160000000,
+			"settings":
+			{
+				"buffer_size": 1247,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "script.js",
+			"settings":
+			{
+				"buffer_size": 197,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/evan/Dropbox/code/calendar/css/flowery.css",
+		"/Users/evan/Dropbox/code/calendar/aug30/amis.html",
+		"/Users/evan/Dropbox/code/calendar/aug29/rote.js",
+		"/Users/evan/Dropbox/code/calendar/aug28/watching.html",
+		"/Users/evan/Dropbox/code/calendar/aug28/evVersion.js",
+		"/Users/evan/Dropbox/code/calendar/aug29/rote.html",
+		"/Users/evan/Dropbox/code/calendar/aug28/site.css",
+		"/Users/evan/Dropbox/code/calendar/aug27/site.css",
+		"/Users/evan/Dropbox/code/calendar/aug27/swatter.html",
+		"/Users/evan/Dropbox/code/calendar/aug27/script.js",
+		"/Users/evan/Dropbox/code/calendar/aug28/script.js",
+		"/Users/evan/Dropbox/code/calendar/aug27/stylesheet.css",
+		"/Users/evan/Dropbox/code/calendar/aug16/index.html",
+		"/Users/evan/Dropbox/code/calendar/aug26/saturday.html",
+		"/Users/evan/Dropbox/code/calendar/aug23/driveTime.html",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture24 Responsive/responsive-after.html",
+		"/Users/evan/Dropbox/code/calendar/aug25/script copy.js",
+		"/Users/evan/Dropbox/code/calendar/aug25/nebraska copy.css",
+		"/Users/evan/Dropbox/code/calendar/aug23/script.js",
+		"/Users/evan/Dropbox/code/calendar/aug23/nebraska.css",
+		"/Users/evan/Dropbox/code/calendar/aug12/index.html",
+		"/Users/evan/Dropbox/code/coursera_jhu/ground/week5 copy 2/final/main.html",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week5/final/snippets/home-snippet.html",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week5/trusted-assignment5-solution-starter/snippets/category-snippet.html",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week5/trusted-assignment5-solution-starter/js/script.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week5/trusted-assignment5-solution-starter/js/scriptCannibalizeForArray.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week5/trusted-assignment5-solution-starter/snippets/categories-title-snippet.html",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week5/trusted-assignment5-solution-starter/snippets/home-snippet.html",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week5/trusted-assignment5-solution-starter/index.html",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture62/after/js/script.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture61/after/js/script.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week5/trusted-assignment5-solution-starter/js/scriptSUPSICIOUSFIVEPM.js",
+		"/Users/evan/Dropbox/code/calendar/aug17/ajax-utils.js",
+		"/Users/evan/Dropbox/code/calendar/aug17/goofinRote.js",
+		"/Users/evan/Dropbox/code/calendar/aug17/index.html",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week5/assignment5-solution-starter/indexE.html",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week5/suspicious-assignment5-solution-starter/js/script.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week5/assignment5-solution-starter/js/script.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week5/assignment5-solution-starter/snippets/home-snippet.html",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week5/assignment5-solution-starter/index.html",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week5/assignment5-solution-starter/script63solution.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week5/assignment5-solution-starter/js/scriptE.js",
+		"/Users/evan/Dropbox/code/calendar/aug4/prompt.html",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture61/after/js/ajax-utils.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week5/assignment5-solution-starter/js/npm.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week5/assignment5-solution-starter/snippets/menu-items-title.html",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week5/assignment5-solution-starter/snippets/categories-title-snippet.html",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week5/assignment5-solution-starter/js/scriptToSteal60.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture57/js/script.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture57/js/ajax-utils.js",
+		"/Users/evan/Dropbox/code/calendar/aug11/js/script.js",
+		"/Users/evan/Dropbox/code/calendar/aug11/index.html",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture59/after/js/jquery-2.1.4.min.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture59/after/js/bootstrap.min.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture59/after/js/bootstrap.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture59/after/js/npm.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture59/after/js/script.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture58/js/script.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture58/js/ajax-utils.js",
+		"/Users/evan/Dropbox/code/calendar/aug8/js/y_script.js",
+		"/Users/evan/Dropbox/code/calendar/aug9/utils.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture57/index.html",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture55/index.html",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture55/js/scriptPristine.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture55/js/script.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture52/js/script2.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week6/s2.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week6/s1.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture47/index.html",
+		"/Users/evan/Dropbox/code/coursera_jhu/homework/week6/h.html",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture52/js/script1.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture52/js/app.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture50/js/script-ev.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture47/js/script2.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture99/index.html",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture50/js/script.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture48/lect48Notes.txt",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture47/js/script-47-3.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture48/js/script.js",
+		"/Users/evan/Desktop/Reducing the corrupting power of money in politics",
+		"/Users/evan/Dropbox/code/coursera_jhu/fullstack-course4/examples/Lecture47/js/script.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/jsHello/basic_function.js",
+		"/Users/evan/Dropbox/code/coursera_jhu/jsHello/segundoJS.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">\n",
+			"rand",
+			"buildandshow",
+			"Url",
+			"url",
+			"buildandshowcate",
+			"buildandshow",
+			"href",
+			"click",
+			"insertproperty",
+			"regex",
+			"buildandshowhomehtml",
+			"menuitemshtml",
+			"insertprop",
+			"}}",
+			"categoryshort",
+			"loadmenuitems",
+			"buildandshowmenuitems",
+			"categorymenuitems",
+			"buildmenuitemsview",
+			"for",
+			"insertproperty",
+			"inser",
+			"loadmenuitem",
+			"categor",
+			"responseText",
+			"sendgetre",
+			"loadmenu",
+			"click",
+			"loadmenuit",
+			"buildand",
+			"todo",
+			"INDEX",
+			"dc",
+			"portion",
+			"index.htm",
+			"index.html",
+			"self",
+			"eyes",
+			"}",
+			"changeObject"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"boom"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "amis.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1317,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1146,
+								1146
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 359.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/evan/Dropbox/code/calendar/css/flowery.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1247,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1116,
+								1116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 669.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								36,
+								36
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "amis.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 133.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
